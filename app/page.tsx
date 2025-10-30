@@ -7,7 +7,7 @@ export default function Home() {
       <section className="relative overflow-hidden gradient-pink-yellow py-20 md:py-32">
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl">
-            <p className="text-pink-dark font-medium mb-4 tracking-wide">
+            <p className="text-white font-medium mb-4 tracking-wide">
               Senior Visual Designer | Brand Strategist | UI Enthusiast
             </p>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight text-white">
