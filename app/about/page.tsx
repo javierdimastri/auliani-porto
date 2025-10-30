@@ -9,17 +9,17 @@ export default function About() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="gradient-pink-purple py-20 text-white">
-        <div className="container mx-auto px-6">
-          <h1 className="text-5xl md:text-7xl font-bold mb-8 tracking-tight">
+      <section className="gradient-pink-purple py-16 sm:py-20 md:py-24 text-white">
+        <div className="container mx-auto px-4 sm:px-6">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 sm:mb-8 tracking-tight">
             About Me
           </h1>
           <div className="max-w-4xl">
-            <p className="text-xl md:text-2xl leading-relaxed mb-6">
+            <p className="text-lg sm:text-xl md:text-2xl leading-relaxed mb-4 sm:mb-6">
               Creative visual designer with 8+ years of experience crafting impactful brand
               identities, social media content, and event visuals.
             </p>
-            <p className="text-lg md:text-xl leading-relaxed text-white/90">
+            <p className="text-base sm:text-lg md:text-xl leading-relaxed text-white/90">
               Proven ability to lead design direction across digital and print with measurable
               business results. Recently returning to the professional field after a short career
               break for maternity leave, bringing renewed energy, up-to-date design skills, and a
@@ -30,12 +30,12 @@ export default function About() {
       </section>
 
       {/* Key Strengths */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-12 text-center text-foreground">
+      <section className="py-12 sm:py-16 bg-white">
+        <div className="container mx-auto px-4 sm:px-6">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12 text-center text-foreground">
             What I Bring to the Table
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
             <div className="p-6 bg-accent rounded-2xl">
               <div className="w-12 h-12 bg-pink-primary rounded-full mb-4 flex items-center justify-center text-white font-bold text-xl">
                 ✓
@@ -73,15 +73,15 @@ export default function About() {
       </section>
 
       {/* Professional Philosophy */}
-      <section className="py-16 bg-accent">
-        <div className="container mx-auto px-6">
+      <section className="py-12 sm:py-16 bg-accent">
+        <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-8 text-foreground">My Approach</h2>
-            <p className="text-xl text-foreground leading-relaxed mb-6">
+            <h2 className="text-3xl sm:text-4xl font-bold mb-6 sm:mb-8 text-foreground">My Approach</h2>
+            <p className="text-lg sm:text-xl text-foreground leading-relaxed mb-4 sm:mb-6">
               I believe great design is more than just aesthetics — it's about solving problems
               and driving results.
             </p>
-            <p className="text-lg text-muted leading-relaxed">
+            <p className="text-base sm:text-lg text-muted leading-relaxed">
               Always curious, always learning. I'm open to opportunities where design plays a
               strategic role in shaping brand narratives and engaging audiences.
             </p>
@@ -90,16 +90,16 @@ export default function About() {
       </section>
 
       {/* Experience Timeline */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-12 text-center text-foreground">
+      <section className="py-12 sm:py-16 bg-white">
+        <div className="container mx-auto px-4 sm:px-6">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12 text-center text-foreground">
             Professional Journey
           </h2>
-          <div className="max-w-4xl mx-auto space-y-6">
+          <div className="max-w-4xl mx-auto space-y-4 sm:space-y-6">
             <div className="p-6 bg-gradient-to-r from-pink-primary/10 to-purple/10 rounded-2xl border-l-4 border-pink-primary">
               <p className="text-pink-primary font-bold mb-2">Nov 2020 - May 2024</p>
               <h3 className="text-2xl font-bold text-foreground mb-2">KASKUS Networks</h3>
-              <p className="text-lg text-pink-dark mb-3">Graphic Designer</p>
+              <p className="text-lg text-white mb-3">Graphic Designer</p>
               <ul className="space-y-2 text-foreground">
                 <li>• Designed marketing templates used in 50+ campaigns, reducing design turnaround by 35%</li>
                 <li>• Developed reusable design systems to streamline collaboration across departments</li>
@@ -142,10 +142,10 @@ export default function About() {
       </section>
 
       {/* Education & Skills */}
-      <section className="py-16 gradient-yellow-blue">
-        <div className="container mx-auto px-6">
+      <section className="py-12 sm:py-16 gradient-yellow-blue">
+        <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-4xl mx-auto">
-            <div className="bg-white p-8 rounded-2xl shadow-lg mb-8">
+            <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-lg mb-6 sm:mb-8">
               <h2 className="text-3xl font-bold mb-6 text-foreground">Education</h2>
               <div className="flex items-start gap-4">
                 <div className="w-16 h-16 bg-pink-primary rounded-full flex items-center justify-center text-white font-bold text-2xl shrink-0">
@@ -160,9 +160,9 @@ export default function About() {
               </div>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-6 text-pink-primary">Skills</h3>
+            <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
+              <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-pink-primary">Skills</h3>
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-pink-primary rounded-full"></div>
@@ -183,8 +183,8 @@ export default function About() {
                 </div>
               </div>
 
-              <div className="bg-white p-8 rounded-2xl shadow-lg">
-                <h3 className="text-2xl font-bold mb-6 text-purple">Software</h3>
+              <div className="bg-white p-6 sm:p-8 rounded-2xl shadow-lg">
+                <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-purple">Software</h3>
                 <div className="space-y-3">
                   <div className="flex items-center gap-3">
                     <div className="w-2 h-2 bg-purple rounded-full"></div>

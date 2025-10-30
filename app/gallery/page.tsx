@@ -73,24 +73,24 @@ export default function Gallery() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="gradient-pink-yellow py-20 text-white">
-        <div className="container mx-auto px-6">
-          <p className="text-sm uppercase tracking-wider mb-4 font-bold text-pink-dark">
+      <section className="gradient-pink-yellow py-16 sm:py-20 md:py-24 text-white">
+        <div className="container mx-auto px-4 sm:px-6">
+          <p className="text-xs sm:text-sm uppercase tracking-wider mb-4 font-bold text-white">
             Portfolio
           </p>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 tracking-tight">
             Selected Works
           </h1>
-          <p className="text-xl md:text-2xl leading-relaxed max-w-3xl">
+          <p className="text-lg sm:text-xl md:text-2xl leading-relaxed max-w-3xl mb-6 sm:mb-8">
             A curated collection of projects spanning brand identity, social media design,
             event visuals, and digital experiences.
           </p>
-          <div className="mt-8">
+          <div className="mt-6 sm:mt-8">
             <a
               href="https://behance.net/aulianiputri"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-white text-pink-primary px-8 py-3 rounded-full font-semibold hover:bg-pink-dark hover:text-white transition-all duration-300 shadow-lg"
+              className="inline-block text-center bg-white text-pink-primary px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-pink-dark hover:text-white transition-all duration-300 shadow-lg"
             >
               View Full Portfolio on Behance
             </a>
@@ -99,9 +99,9 @@ export default function Gallery() {
       </section>
 
       {/* Projects Grid */}
-      <section className="py-16 bg-white">
-        <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <section className="py-12 sm:py-16 bg-white">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
             {projects.map((project) => (
               <div
                 key={project.id}
@@ -135,19 +135,19 @@ export default function Gallery() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-accent">
-        <div className="container mx-auto px-6 text-center">
-          <h2 className="text-4xl font-bold mb-6 text-foreground">
+      <section className="py-12 sm:py-16 bg-accent">
+        <div className="container mx-auto px-4 sm:px-6 text-center">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4 sm:mb-6 text-foreground">
             Want to See More?
           </h2>
-          <p className="text-xl text-muted mb-8 max-w-2xl mx-auto">
+          <p className="text-lg sm:text-xl text-muted mb-6 sm:mb-8 max-w-2xl mx-auto">
             Check out my complete portfolio on Behance for detailed case studies and more projects.
           </p>
           <a
             href="https://behance.net/aulianiputri"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block bg-pink-primary text-white px-10 py-4 rounded-full font-bold text-lg hover:bg-pink-dark transition-all duration-300 shadow-lg"
+            className="inline-block bg-pink-primary text-white px-8 sm:px-10 py-3 sm:py-4 rounded-full font-bold text-base sm:text-lg hover:bg-pink-dark transition-all duration-300 shadow-lg"
           >
             Visit Behance Portfolio
           </a>

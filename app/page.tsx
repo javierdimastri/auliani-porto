@@ -4,30 +4,30 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section with Gradient Background */}
-      <section className="relative overflow-hidden gradient-pink-yellow py-20 md:py-32">
-        <div className="container mx-auto px-6 relative z-10">
+      <section className="relative overflow-hidden gradient-pink-yellow py-16 sm:py-20 md:py-32">
+        <div className="container mx-auto px-4 sm:px-6 relative z-10">
           <div className="max-w-4xl">
-            <p className="text-white font-medium mb-4 tracking-wide">
+            <p className="text-white font-medium mb-4 tracking-wide text-sm sm:text-base">
               Senior Visual Designer | Brand Strategist | UI Enthusiast
             </p>
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight text-white">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 tracking-tight text-white">
               Auliani Puteri
             </h1>
-            <p className="text-lg md:text-xl text-white/90 max-w-3xl leading-relaxed mb-8">
+            <p className="text-base sm:text-lg md:text-xl text-white/90 max-w-3xl leading-relaxed mb-6 sm:mb-8">
               Creative visual designer with 8+ years of experience crafting impactful brand
               identities, social media content, and event visuals. Proven ability to lead design
               direction across digital and print with measurable business results.
             </p>
-            <div className="flex flex-wrap gap-4">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
               <Link
                 href="/gallery"
-                className="inline-block bg-white text-pink-primary px-8 py-3 rounded-full font-semibold hover:bg-pink-dark hover:text-white transition-all duration-300 shadow-lg"
+                className="inline-block text-center bg-white text-pink-primary px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-pink-dark hover:text-white transition-all duration-300 shadow-lg"
               >
                 View Portfolio
               </Link>
               <Link
                 href="/contact"
-                className="inline-block border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-pink-primary transition-all duration-300"
+                className="inline-block text-center border-2 border-white text-white px-6 sm:px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-pink-primary transition-all duration-300"
               >
                 Contact Me
               </Link>
@@ -35,17 +35,17 @@ export default function Home() {
           </div>
         </div>
         {/* Decorative circles */}
-        <div className="absolute top-10 right-10 w-32 h-32 bg-white/20 rounded-full"></div>
-        <div className="absolute bottom-20 left-20 w-24 h-24 bg-white/20 rounded-full"></div>
+        <div className="absolute top-10 right-10 w-24 h-24 sm:w-32 sm:h-32 bg-white/20 rounded-full hidden sm:block"></div>
+        <div className="absolute bottom-20 left-20 w-20 h-20 sm:w-24 sm:h-24 bg-white/20 rounded-full hidden sm:block"></div>
       </section>
 
       {/* Experience Highlights */}
-      <section className="py-20 bg-white">
-        <div className="container mx-auto px-6">
-          <h2 className="text-4xl font-bold mb-12 text-center text-foreground">
+      <section className="py-12 sm:py-16 md:py-20 bg-white">
+        <div className="container mx-auto px-4 sm:px-6">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-8 sm:mb-12 text-center text-foreground">
             Experience Highlights
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
             <div className="p-8 rounded-2xl gradient-pink-purple text-white">
               <h3 className="text-2xl font-bold mb-2">KASKUS Networks</h3>
               <p className="text-sm mb-4 text-white/80">Nov 2020 - May 2024</p>
@@ -83,9 +83,9 @@ export default function Home() {
       </section>
 
       {/* Skills Section */}
-      <section className="py-20 bg-accent">
-        <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-12">
+      <section className="py-12 sm:py-16 md:py-20 bg-accent">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="grid md:grid-cols-2 gap-8 sm:gap-12">
             <div>
               <h2 className="text-3xl font-bold mb-8 text-pink-primary">Core Skills</h2>
               <div className="grid grid-cols-2 gap-4">

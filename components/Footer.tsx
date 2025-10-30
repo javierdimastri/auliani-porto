@@ -19,7 +19,7 @@ export default function Footer() {
               href="mailto:ayaauliani@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-5 py-2 bg-gradient-to-r from-pink-primary to-pink-dark text-white rounded-full text-sm font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300"
+              className="px-5 py-2 bg-pink-primary text-white rounded-full text-sm font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300"
             >
               Email
             </a>
@@ -27,7 +27,7 @@ export default function Footer() {
               href="https://behance.net/aulianiputri"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-5 py-2 bg-gradient-to-r from-blue to-purple text-white rounded-full text-sm font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300"
+              className="px-5 py-2 bg-pink-primary text-white rounded-full text-sm font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300"
             >
               Behance
             </a>
@@ -35,7 +35,7 @@ export default function Footer() {
               href="https://www.linkedin.com/in/aulianiputri"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-5 py-2 bg-gradient-to-r from-yellow to-orange text-foreground rounded-full text-sm font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300"
+              className="px-5 py-2 bg-pink-primary text-white rounded-full text-sm font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300"
             >
               LinkedIn
             </a>
