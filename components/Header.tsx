@@ -43,7 +43,7 @@ export default function Header() {
               </li>
             </ul>
             <a
-              href="/cv.pdf"
+              href="/api/download-cv"
               download="Auliani_Puteri_CV.pdf"
               className="bg-gradient-to-r from-pink-primary to-purple text-white px-4 xl:px-5 py-2 rounded-full text-sm font-bold hover:shadow-lg hover:scale-105 transition-all duration-300"
             >
@@ -108,7 +108,7 @@ export default function Header() {
               </li>
               <li className="pt-2">
                 <a
-                  href="/cv.pdf"
+                  href="/api/download-cv"
                   download="Auliani_Puteri_CV.pdf"
                   className="block text-center bg-gradient-to-r from-pink-primary to-purple text-white px-5 py-2 rounded-full text-sm font-bold hover:shadow-lg transition-all duration-300"
                 >
